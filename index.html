@@ -6,8 +6,8 @@
     <title>ساعت آماتیس | AMATIS WATCH</title>
     <style>
         body {
-            background-color: #000;
-            color: #d4af37; /* رنگ طلایی */
+            background-color: #000; /* پس‌زمینه مشکی مطلق */
+            color: #d4af37; /* طلایی */
             font-family: Tahoma, Arial, sans-serif;
             display: flex;
             justify-content: center;
@@ -19,24 +19,28 @@
         .card {
             width: 90%;
             max-width: 400px;
-            padding: 20px;
-            border: 1px solid #333;
-            border-radius: 15px;
-            background: #111;
+            padding: 30px;
+            border: 2px solid #d4af37; /* کادر طلایی */
+            border-radius: 20px;
+            background: #000;
         }
-        img { width: 150px; margin-bottom: 20px; border-radius: 50%; }
-        h1 { margin: 5px 0; font-size: 24px; }
+        img { width: 160px; margin-bottom: 20px; border-radius: 10px; }
+        h1 { margin: 5px 0; font-size: 26px; color: #d4af37; }
+        p.sub { margin-bottom: 25px; font-size: 16px; color: #fff; }
         .btn {
             display: block;
-            background: #d4af37;
-            color: #000;
-            padding: 12px;
-            margin: 10px 0;
+            background: transparent;
+            color: #d4af37;
+            border: 1px solid #d4af37;
+            padding: 14px;
+            margin: 12px 0;
             text-decoration: none;
             border-radius: 8px;
             font-weight: bold;
+            transition: 0.3s;
         }
-        .info { margin-top: 20px; font-size: 14px; line-height: 1.6; color: #fff; }
+        .btn:hover { background: #d4af37; color: #000; }
+        .info { margin-top: 30px; font-size: 14px; line-height: 1.8; color: #fff; border-top: 1px solid #333; padding-top: 15px; }
     </style>
 </head>
 <body>
@@ -44,12 +48,12 @@
 <div class="card">
     <img src="1000017221.png" alt="Amatis Watch">
     <h1>ساعت آماتیس</h1>
-    <p>AMATIS WATCH</p>
+    <p class="sub">AMATIS WATCH</p>
 
-    <a href="data:text/vcard;base64,QkVHSU46VkNBUkQNClZFUlNJT046My4wDQpGTjpTYWF0ZSBBbWF0aXMNClRFTDtUWVBFPUNFTElORTswOTk4MTYxNzI1OQpFTkQ6VkNBUkQ=" class="btn">ذخیره شماره در مخاطبین</a>
+    <a href="data:text/vcard;base64,QkVHSU46VkNBUkQNClZFUlNJT046My4wDQpGTjpTYWF0ZSBBbWF0aXMgKE1hc2hhZCkNClRFTDtUWVBFPUNFTExQT05FOjA5OTgxNjE3MjU5DQpFTkQ6VkNBUkQ=" class="btn">💾 ذخیره در مخاطبین</a>
 
     <a href="tel:09981617259" class="btn">📞 تماس با ما</a>
-    <a href="https://nshn.ir/sb1j7SVJdck1" class="btn">📍 مسیریابی (نشان)</a>
+    <a href="https://nshn.ir/sb1j7SVJdck1" class="btn">📍 مسیریابی</a>
     <a href="https://instagram.com/amatis7259" class="btn">📷 اینستاگرام</a>
     <a href="https://t.me/Amatis999" class="btn">✈ تلگرام</a>
     <a href="https://rubika.ir/Amatis2017" class="btn">💬 روبیکا</a>
